@@ -62,7 +62,7 @@ server.get('/stock', async (req, res) => {
 
 
 server.get('/', (req, res) => {
-  res.json({ status: 'ok', endpoint: '/stock?list=sh000001' });
+  res.json({ status: 'ok', status2: 'ok2', endpoint: '/stock?list=sh000001' });
 });
 
 const PORT = process.env.PORT || 3001;
